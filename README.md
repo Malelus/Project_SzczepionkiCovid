@@ -7,7 +7,9 @@
 
 ### Dodatkowe:
 
-- strona responsywna:
+- animacja przejścia między podstronami wykonana przy pomocy css oraz js.
+
+- strona zbudowana została responsywnie dzięki czemu umożliwa swobodne i wygodne korzystanie z niej na każdym urządzeniu:
 
   - 0 - 699px - widok mobilny, hamburger menu (początkowy stan),
   - 700px - 999px - widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu,
@@ -19,4 +21,4 @@
   - informacje o autorze,
   - datę wykonania.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov,
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov.
