@@ -31,7 +31,10 @@
   - skrócone informacje o zawartości strony (dodatkowy link do formularza szczepień),
   - informacje o autorze,
   - datę wykonania.
-  - okno można wyłączyć na 3 sposoby: (przycisk Zamknij, kliknięcie poza obszar okna bądź za pomocą przycisku ESC).
+  - okno można wyłączyć na 3 sposoby:
+    - przycisk Zamknij,
+    - kliknięcie poza obszar okna,
+    - za pomocą przycisku ESC.
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov.
 
