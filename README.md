@@ -1,13 +1,22 @@
 # Strona o szczepionkach na COVID-19
 
-## Obowiązkowe:
+### Obowiązkowe:
 
 - 3 szczepionki (Moderna, AstraZeneca, CureVac),
 - formularz zapisu na szczepienie.
 
-## Dodatkowe:
+### Dodatkowe:
 
 - strona responsywna:
+
   - 0 - 699px - widok mobilny, hamburger menu (początkowy stan),
   - 700px - 999px - widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu,
-  - 1000px i więcej - widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu,
+  - 1000px i więcej - widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu.
+
+- okno popup umieszczone w stopce strony, zawiera:
+
+  - skrócone informacje o zawartości strony (dodatkowy link do formularza szczepień),
+  - informacje o autorze,
+  - datę wykonania.
+
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov,
