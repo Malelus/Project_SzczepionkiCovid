@@ -30,3 +30,7 @@
   - okno można wyłączyć na 3 sposoby: (przycisk Zamknij, kliknięcie poza obszar okna bądź za pomocą przycisku ESC).
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov.
+
+- link do strony głównej umieszczony w napisie "SzczepionkiCovid"
+
+- znacznik na której stronie aktualnie znajduję się użytkownik.
