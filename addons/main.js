@@ -9,7 +9,7 @@ window.onload = () => {
 
   // - page transition
   const transition_el = document.querySelector('.transition');
-  const anchors = document.querySelectorAll('a.in');
+  const anchors = document.querySelectorAll('a:not(.external)');
 
   // - popup
   const popup_btn = document.querySelectorAll('.show-popup');
@@ -19,65 +19,64 @@ window.onload = () => {
   //===// Loading variables //===//
   //=============================//
 
-  // Loading time durations from main.css
-  var variable = getComputedStyle(document.body);
-  let t_time = variable.getPropertyValue('--transition-time');
-  let b_time = variable.getPropertyValue('--btn-anim-time');
-  let p_time = variable.getPropertyValue('--popup-time');
-  let l_time = variable.getPropertyValue('--logo-anim-time');
-  let h_time = variable.getPropertyValue('--nav-hide-time');
-  let s_time = variable.getPropertyValue('--nav-show-time');
-  let m_time = variable.getPropertyValue('--main-anim-time');
+  // Defining single variables and array for them
+  let variables = [
+    '--transition-time',
+    '--btn-anim-time',
+    '--popup-time',
+    '--logo-anim-time',
+    '--nav-hide-time',
+    '--nav-show-time',
+    '--main-anim-time',
+    '--anim-delay',
+    '--anim-delay--logo-icon',
+  ];
+  let t_time, b_time, p_time, l_time, h_time, s_time, m_time, d_time, dl_time;
+  let durations = [t_time, b_time, p_time, l_time, h_time, s_time, m_time, d_time, dl_time];
 
-  // Loading time delays from main.css
-  let d_time = variable.getPropertyValue('--anim-delay');
-  let dl_time = variable.getPropertyValue('--anim-delay--logo-icon');
+  // Inserting all time durations to array
+  var variable = getComputedStyle(document.body);
+  for (var i = 0; i < 9; i++) {
+    durations[i] = variable.getPropertyValue(variables[i]);
+  }
+
+  //================================//
+  //====// Variables formating //===//
+  //================================//
+
+  // Subtracting `s` letter from loaded string
+  for (i = 0; i < 9; i++) {
+    durations[i] = durations[i].substring(0, durations[i].length - 1);
+  }
+
+  // Setting own variable for transition time
+  let time = durations[0] * 1000;
+
+  // Setting style for console timing info
+  for (i = 0; i < 9; i++) {
+    if (durations[i].indexOf('.') < '') durations[i] = durations[i] + '.0';
+  }
 
   //====================//
   //====// Console //===//
   //====================//
 
-  // Subtracting `s` letter from loaded string
-  t_time = t_time.substring(0, t_time.length - 1);
-  b_time = b_time.substring(0, b_time.length - 1);
-  p_time = p_time.substring(0, p_time.length - 1);
-  l_time = l_time.substring(0, l_time.length - 1);
-  h_time = h_time.substring(0, h_time.length - 1);
-  s_time = s_time.substring(0, s_time.length - 1);
-  m_time = m_time.substring(0, m_time.length - 1);
-  d_time = d_time.substring(0, d_time.length - 1);
-  dl_time = dl_time.substring(0, dl_time.length - 1);
-
-  // Setting own variable for transition time
-  let time = t_time * 1000;
-
-  // Setting style for console timing info
-  if (t_time.indexOf('.') < '') t_time = t_time + '.0';
-  if (b_time.indexOf('.') < '') b_time = b_time + '.0';
-  if (p_time.indexOf('.') < '') p_time = p_time + '.0';
-  if (l_time.indexOf('.') < '') l_time = l_time + '.0';
-  if (h_time.indexOf('.') < '') h_time = h_time + '.0';
-  if (s_time.indexOf('.') < '') s_time = s_time + '.0';
-  if (m_time.indexOf('.') < '') m_time = m_time + '.0';
-  if (d_time.indexOf('.') < '') d_time = d_time + '.0';
-  if (dl_time.indexOf('.') < '') dl_time = dl_time + '.0';
-
   // Console log transitions durations & delays
 
   console.log(`# Transitions, Animations was loaded correctly! (Time is given in seconds)\n\n`);
   console.log(`# Page transition:`);
-  console.log(`  - static screen: ` + t_time);
-  console.log(`  - transition: ` + t_time);
-  console.log(`# Button animation time: ` + b_time);
-  console.log(`# Popup time: ` + p_time);
-  console.log(`# Logo animation time: ` + l_time);
+  console.log(`  - static screen: ` + durations[0]);
+  console.log(`  - transition: ` + durations[0]);
+  console.log(`# Button animation time: ` + durations[1]);
+  console.log(`# Popup time: ` + durations[2]);
+  console.log(`# Logo animation time: ` + durations[3]);
   console.log(`# Navigation:`);
-  console.log(`  - hide: ` + h_time);
-  console.log(`  - show: ` + s_time);
-  console.log(`# Main animation: ` + m_time);
+  console.log(`  - hide: ` + durations[4]);
+  console.log(`  - show: ` + durations[5]);
+  console.log(`# Main animation: ` + durations[6]);
   console.log(`# Delays:`);
-  console.log(`  - default: ` + d_time);
-  console.log(`  - logo icon: ` + dl_time);
+  console.log(`  - default: ` + durations[7]);
+  console.log(`  - logo icon: ` + durations[8]);
 
   //====================//
   //===// Scripts //===//
@@ -100,7 +99,12 @@ window.onload = () => {
 
     anchor.addEventListener('click', (e) => {
       e.preventDefault();
-      let target = e.target.href;
+      let target;
+      if (e.target.href !== undefined) {
+        target = e.target.href;
+      } else {
+        target = '../index.html';
+      }
 
       transition_el.classList.add('is-active');
 
@@ -124,7 +128,7 @@ window.onload = () => {
     });
   });
 
-  //===// Popup close on escape press //===//
+  //===// Popup close on escape key press //===//
   document.addEventListener('keydown', esc);
   function esc(ev) {
     if (ev.which === 27) {
