@@ -6,6 +6,7 @@
   0% {
     transform: translateY(-50px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -16,9 +17,11 @@
     opacity: 0;
     transform: translateX(-15px);
   }
+
   80% {
     transform: translateY(0);
   }
+
   100% {
     opacity: 1;
   }
@@ -71,6 +74,7 @@
     opacity: 0;
     transform: translate(-50%, -50%) translate(200px, -200px);
   }
+
   10% {
     opacity: 1;
     transform: translate(-50%, -50%) translate(200px, -200px);
@@ -103,14 +107,17 @@
   0% {
     opacity: 0;
   }
+
   10%,
   66% {
     opacity: 1;
     width: var(--virus-size);
   }
+
   99% {
     width: 0rem;
   }
+
   100% {
     opacity: 0;
   }
@@ -121,6 +128,7 @@
   66% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -131,6 +139,7 @@
     opacity: 0;
     transform: translateX(-25px);
   }
+
   100% {
     opacity: 1;
     transform: translateX(2.5px);
@@ -142,9 +151,36 @@
     opacity: 1;
     transform: translateX(2.5px);
   }
+
   100% {
     opacity: 0;
     transform: translateX(-25px);
+  }
+}
+
+@keyframes form__result-anim {
+  0% {
+    visibility: visible;
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  10% {
+    transform: translateY(0);
+  }
+
+  15%,
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-100px);
   }
 }
 
@@ -164,6 +200,25 @@
 
   &.is-active {
     top: 0;
+    left: 0;
+  }
+}
+
+//============================================//
+//===// Page transition (Right to  Left) //===//
+//============================================//
+
+.slide-r-l {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  bottom: 0;
+  z-index: 101;
+  background: color(accent);
+  transition: time(transition-time) ease-out;
+
+  &.is-active {
     left: 0;
   }
 }

@@ -9,11 +9,15 @@ window.onload = () => {
 
   // - page transition
   const transition_el = document.querySelector('.transition');
-  const anchors = document.querySelectorAll('a:not(.external)');
+  const anchors = document.querySelectorAll('a:not(.external):not(.home)');
 
   // - popup
   const popup_btn = document.querySelectorAll('.show-popup');
   const popup = document.querySelector('.popup');
+
+  // - form
+  const form = document.getElementById('form');
+  const form_result = document.querySelector('.form__result');
 
   //=============================//
   //===// Loading variables //===//
@@ -28,15 +32,16 @@ window.onload = () => {
     '--nav-hide-time',
     '--nav-show-time',
     '--main-anim-time',
+    '--form-result-visibility',
     '--anim-delay',
     '--anim-delay--logo-icon',
   ];
-  let t_time, b_time, p_time, l_time, h_time, s_time, m_time, d_time, dl_time;
-  let durations = [t_time, b_time, p_time, l_time, h_time, s_time, m_time, d_time, dl_time];
+  let t_time, b_time, p_time, l_time, h_time, s_time, m_time, f_time, d_time, dl_time;
+  let durations = [t_time, b_time, p_time, l_time, h_time, s_time, m_time, f_time, d_time, dl_time];
 
-  // Inserting all time durations to array
+  // Inserting all time durations into array
   var variable = getComputedStyle(document.body);
-  for (var i = 0; i < 9; i++) {
+  for (var i = 0; i < 10; i++) {
     durations[i] = variable.getPropertyValue(variables[i]);
   }
 
@@ -45,15 +50,16 @@ window.onload = () => {
   //================================//
 
   // Subtracting `s` letter from loaded string
-  for (i = 0; i < 9; i++) {
+  for (i = 0; i < 10; i++) {
     durations[i] = durations[i].substring(0, durations[i].length - 1);
   }
 
   // Setting own variable for transition time
   let time = durations[0] * 1000;
+  let time_result = durations[7] * 1000;
 
   // Setting style for console timing info
-  for (i = 0; i < 9; i++) {
+  for (i = 0; i < 10; i++) {
     if (durations[i].indexOf('.') < '') durations[i] = durations[i] + '.0';
   }
 
@@ -74,9 +80,10 @@ window.onload = () => {
   console.log(`  - hide: ` + durations[4]);
   console.log(`  - show: ` + durations[5]);
   console.log(`# Main animation: ` + durations[6]);
+  console.log(`# Form result visibility: ` + durations[7]);
   console.log(`# Delays:`);
-  console.log(`  - default: ` + durations[7]);
-  console.log(`  - logo icon: ` + durations[8]);
+  console.log(`  - default: ` + durations[8]);
+  console.log(`  - logo icon: ` + durations[9]);
 
   //====================//
   //===// Scripts //===//
@@ -99,12 +106,7 @@ window.onload = () => {
 
     anchor.addEventListener('click', (e) => {
       e.preventDefault();
-      let target;
-      if (e.target.href !== undefined) {
-        target = e.target.href;
-      } else {
-        target = '../index.html';
-      }
+      let target = e.target.href;
 
       transition_el.classList.add('is-active');
 
@@ -135,4 +137,17 @@ window.onload = () => {
       popup.classList.remove('pop-is-active');
     }
   }
+
+  //===// Form //===//
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    form.reset();
+    form_result.classList.add('form__result--true');
+
+    setTimeout(() => {
+      location.reload();
+    }, time_result + 125);
+  });
 };

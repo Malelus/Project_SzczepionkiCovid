@@ -20,7 +20,7 @@
     <header>
       <div class="container container--top">
         <div class="logo">
-          <a href="../index.html" class="logo__link">
+          <a href="../index.html" class="logo__link home">
             <span class="logo__text logo__text--big">Szczepionki</span
             ><span class="logo__text logo__text--small">COVID</span>
             <i class="fas fa-syringe logo__icon"></i>
@@ -58,16 +58,21 @@
       <div class="container">
         <section class="content content--form">
           <h1 class="content__title content__title--form">Zapisz się na szczepionkę!</h1>
-          <form class="content__form">
+          <form class="form" id="form">
             <label for="first-name" class="form__label">Imię</label>
-            <input type="text" id="first-name" class="form__input" />
+            <input type="text" id="first-name" class="form__input" required />
             <label for="last-name" class="form__label">Nazwisko</label>
-            <input type="text" id="last-name" class="form__input" />
+            <input type="text" id="last-name" class="form__input" required />
             <label for="phone-num" class="form__label">Numer telefonu</label>
-            <input type="tel" id="phone-num" class="form__input" />
+            <input type="tel" id="phone-num" class="form__input" required />
             <input type="submit" value="Wyślij" class="btn btn--form btn--form__send" />
             <input type="reset" value="Wyczyść" class="btn btn--form btn--form__reset" />
           </form>
+
+          <p class="content__text form__result">
+            Sukces! Twoje zgłoszenie zostało przyjęte, skontaktujemy się z Tobą za pomocą wiadomości
+            SMS.
+          </p>
         </section>
       </div>
     </main>

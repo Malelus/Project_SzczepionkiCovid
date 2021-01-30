@@ -146,6 +146,7 @@ header {
     font-family: font(title);
     text-transform: uppercase;
     text-decoration: none;
+    text-underline-offset: 5px;
     color: color(txt-accent);
     transition: opacity time(btn-anim-time) ease;
     @include mouse-hover;
@@ -314,7 +315,7 @@ main {
   & .form {
     max-width: 500px;
     margin: 2rem auto;
-    padding: 2em;
+    padding: 2em 0;
 
     &__label,
     &__input {
@@ -331,9 +332,21 @@ main {
       border: none;
       outline: none;
       font-size: 1.4rem;
+      font-weight: 400;
       border: 1px solid rgba(0, 0, 0, 0.5);
       margin: 0 auto;
       padding: 0.3em 0.2em;
+    }
+
+    &__result {
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+      transform: translateY(-100px);
+
+      &--true {
+        animation: form__result-anim time(form-result-visibility) ease;
+      }
     }
   }
 
