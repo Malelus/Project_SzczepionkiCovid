@@ -13,7 +13,7 @@
   - linki,
   - zawartość,
   - stopka.
-- 3 szczepionki (Moderna, AstraZeneca, CureVac),
+- 3 szczepionki (Moderna, AstraZeneca, CureVac) [Źródło](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf),
 - formularz zapisu na szczepienie.
 
 ### Dodatkowe:
@@ -32,6 +32,7 @@
   - informacje o autorze,
   - datę wykonania.
   - okno można wyłączyć na 3 sposoby:
+
     - przycisk Zamknij,
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
@@ -44,4 +45,4 @@
 
 - linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
 
--
+- możliwość wyłączenia całkowicie animacji tekstu (ustawienie znajduje się w pliku \_reset.scss) (ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
