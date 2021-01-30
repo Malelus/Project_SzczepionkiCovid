@@ -2,6 +2,10 @@
 
 #### Napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
 
+- Czcionki:
+  - Roboto: https://fonts.google.com/specimen/Roboto?query=robot,
+  - Bebas Neue: https://fonts.google.com/specimen/Bebas+Neue?query=bebas.
+
 ### Obowiązkowe:
 
 - układ:
@@ -31,6 +35,10 @@
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov.
 
+- zmieniony wygląd scrollbar'a,
+
 - link do strony głównej umieszczony w napisie "SzczepionkiCovid"
 
-- znacznik na której stronie aktualnie znajduję się użytkownik.
+- linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
+
+-
