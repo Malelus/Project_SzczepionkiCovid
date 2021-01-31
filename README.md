@@ -2,7 +2,9 @@
 
 #### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/{:target="_blank"}.
 
-- czcionki: -<a href="https://fonts.google.com/specimen/Roboto?query=robot" target="_blank">Roboto</a>, -<a href="https://fonts.google.com/specimen/Bebas+Neue?query=bebas" target="_blank">Roboto</a>.
+- czcionki:
+  - <a href="https://fonts.google.com/specimen/Roboto?query=robot" target="_blank">Roboto</a>,
+  - <a href="https://fonts.google.com/specimen/Bebas+Neue?query=bebas" target="_blank">Roboto</a>.
 
 ---
 
