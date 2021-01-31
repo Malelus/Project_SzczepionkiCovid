@@ -2,7 +2,7 @@
 
 #### Napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
 
-- Czcionki:
+- czcionki:
   - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot),
   - [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas).
 
