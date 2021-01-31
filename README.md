@@ -1,6 +1,6 @@
 # Strona o szczepionkach na COVID-19
 
-#### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/{:target="_blank"}.
+#### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
 
 - czcionki:
   - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot),
