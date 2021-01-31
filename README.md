@@ -24,12 +24,12 @@
 
 ```
 - strona zbudowana została responsywnie dzięki czemu umożliwa swobodne i wygodne korzystanie z niej na każdym urządzeniu:
+```
 
 | Mobilny                                                    | Tablet                                                                                        | Desktop                                                             |
 | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | <699px                                                     | 700px - 999px                                                                                 | >1000px                                                             |
 | widok mobilny, hamburger menu (pierwotne ułożenie strony). | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu. | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu. |
-```
 
 ```
 - użyto znaczników semantycznych,
@@ -73,7 +73,8 @@
 ```
 
 ```
-- możliwość wyłączenia całkowicie animacji tekstu (ustawienie znajduje się w pliku \_reset.scss) (ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
+- możliwość wyłączenia całkowicie animacji tekstu:
+> (ustawienie znajduje się w pliku \_reset.scss) (ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
 ```
 
 ---
