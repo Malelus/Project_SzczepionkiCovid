@@ -50,6 +50,8 @@
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
 
+<a href="https://www.gov.pl/web/szczepimysie" target="_blank">gov</a>
+
 - zmieniony wygląd scrollbar'a,
 
 - link do strony głównej umieszczony w napisie "SzczepionkiCovid"
