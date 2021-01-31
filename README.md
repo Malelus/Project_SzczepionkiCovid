@@ -44,7 +44,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov. [Link](https://www.gov.pl/web/szczepimysie)
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
 
 - zmieniony wygląd scrollbar'a,
 
