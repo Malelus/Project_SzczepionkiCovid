@@ -13,11 +13,14 @@
 ### Obowiązkowe:
 
 - układ:
+
   - logo,
   - linki,
   - zawartość,
   - stopka.
-- 3 szczepionki (Moderna, AstraZeneca, CureVac) [source](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf),
+
+- 3 szczepionki (Moderna, AstraZeneca, CureVac) [źródło](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf),
+
 - formularz zapisu na szczepienie.
 
 ---
