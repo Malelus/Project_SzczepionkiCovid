@@ -26,11 +26,10 @@
   - 700px - 999px - widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu,
   - 1000px i więcej - widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu.
 
-| Mobilny       | Tablet        | Desktop  |
-| ------------- | ------------- | -------- |
-| <699px        | 700px - 999px | >1000px  |
-| ------------- | ------------- | -------- |
-| info          | info          | info     |
+| Mobilny                                                    | Tablet                                                                                        | Desktop                                                             |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| <699px                                                     | 700px - 999px                                                                                 | >1000px                                                             |
+| widok mobilny, hamburger menu (pierwotne ułożenie strony). | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu. | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu. |
 
 - okno popup umieszczone w stopce strony, zawiera:
 
