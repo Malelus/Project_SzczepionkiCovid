@@ -55,6 +55,7 @@
 - możliwość wyłączenia całkowicie animacji tekstu.
 
   > (ustawienie znajduje się w pliku \_reset.scss)
+
   > (aby włączyć opcje: ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
 
 ---
