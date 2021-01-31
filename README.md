@@ -61,4 +61,4 @@
 
 #### Wykonał Mateusz Narowski
 
-#### 02.02.2021
+#### Data: 02.02.2021
