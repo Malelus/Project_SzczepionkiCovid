@@ -1,6 +1,6 @@
 # Strona o szczepionkach na COVID-19
 
-### [Link do strony](https://malelus.github.io/SzczepionkiCovid/)
+> ### [Link do strony](https://malelus.github.io/SzczepionkiCovid/)
 
 #### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
 
