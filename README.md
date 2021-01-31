@@ -44,7 +44,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov.
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę gov. [Link](https://www.gov.pl/web/szczepimysie)
 
 - zmieniony wygląd scrollbar'a,
 
@@ -52,7 +52,7 @@
 
 - linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
 
-- możliwość wyłączenia całkowicie animacji tekstu:
+- możliwość wyłączenia całkowicie animacji tekstu.
   > (ustawienie znajduje się w pliku \_reset.scss) (ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
 
 ---
