@@ -48,9 +48,7 @@
 
 - symulowne wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
-
-<a href="https://www.gov.pl/web/szczepimysie" target="_blank">gov</a>
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie{:target="_blank"}).
 
 - zmieniony wygląd scrollbar'a,
 
