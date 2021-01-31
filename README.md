@@ -1,5 +1,7 @@
 # Strona o szczepionkach na COVID-19
 
+### [Link do strony](https://malelus.github.io/SzczepionkiCovid/)
+
 #### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
 
 - czcionki:
@@ -43,6 +45,8 @@
     - przycisk Zamknij,
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
+
+- symulowne wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona.
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
 
