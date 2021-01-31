@@ -6,6 +6,8 @@
   - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot),
   - [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas).
 
+---
+
 ### Obowiązkowe:
 
 - układ:
@@ -15,6 +17,8 @@
   - stopka.
 - 3 szczepionki (Moderna, AstraZeneca, CureVac) [Źródło informacji](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf),
 - formularz zapisu na szczepienie.
+
+---
 
 ### Dodatkowe:
 
@@ -47,5 +51,9 @@
 - linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
 
 - możliwość wyłączenia całkowicie animacji tekstu (ustawienie znajduje się w pliku \_reset.scss) (ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
+
+---
+
+---
 
 #### Wykonał Mateusz Narowski
