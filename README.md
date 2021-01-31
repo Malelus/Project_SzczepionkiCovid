@@ -3,8 +3,8 @@
 #### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/{:target="_blank"}.
 
 - czcionki:
-  - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot),
-  - [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas).
+  - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot){:target="_blank"},
+  - [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas){:target="_blank"}.
 
 ---
 
@@ -15,7 +15,7 @@
   - linki,
   - zawartość,
   - stopka.
-- 3 szczepionki (Moderna, AstraZeneca, CureVac) [Info](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf){:target="\_blank"},
+- 3 szczepionki (Moderna, AstraZeneca, CureVac) [Info](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf){:target="_blank"},
 - formularz zapisu na szczepienie.
 
 ---
@@ -44,7 +44,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie){:target="\_blank"}.
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie){:target="_blank"}.
 
 - zmieniony wygląd scrollbar'a,
 
