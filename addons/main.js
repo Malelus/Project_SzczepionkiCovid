@@ -140,7 +140,7 @@ window.onload = () => {
 
   //===// Form //===//
 
-  form.addEventListener('submit', (e) => {
+  document.addEventListener('submit', (e) => {
     e.preventDefault();
 
     form.reset();
