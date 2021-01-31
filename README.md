@@ -53,7 +53,8 @@
 - linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
 
 - możliwość wyłączenia całkowicie animacji tekstu.
-  > (ustawienie znajduje się w pliku \_reset.scss) (aby włączyć opcje: ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
+  > (ustawienie znajduje się w pliku \_reset.scss)
+  > (aby włączyć opcje: ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)).
 
 ---
 
