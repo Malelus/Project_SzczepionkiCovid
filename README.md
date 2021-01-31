@@ -1,6 +1,6 @@
 # Strona o szczepionkach na COVID-19
 
-#### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/.
+#### Strona została napisana w edytorze Visual Studio Code używając preprocesora SASS do pisania kodu CSS oraz użyto ikon ze strony https://fontawesome.com/{:target="_blank"}.
 
 - czcionki:
   - [Roboto](https://fonts.google.com/specimen/Roboto?query=robot),
@@ -15,7 +15,7 @@
   - linki,
   - zawartość,
   - stopka.
-- 3 szczepionki (Moderna, AstraZeneca, CureVac) [Info](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf),
+- 3 szczepionki (Moderna, AstraZeneca, CureVac) [Info](https://businessinsider.com.pl/technologie/nowe-technologie/szczepionki-przeciw-covid-19-moderna-astrazeneca-curevac-sanofi/k4znpqf){:target="\_blank"},
 - formularz zapisu na szczepienie.
 
 ---
@@ -44,7 +44,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie){:target="\_blank"}.
 
 - zmieniony wygląd scrollbar'a,
 
