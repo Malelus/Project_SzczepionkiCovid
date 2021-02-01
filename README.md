@@ -36,15 +36,17 @@
 | <699px                                                     | 700px - 999px                                                                                 | >1000px                                                             |
 | widok mobilny, hamburger menu (pierwotne ułożenie strony). | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu. | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu. |
 
-- użyto znaczników semantycznych,
+- użyto znaczników semantycznych.
 
 - animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript.
 
 - okno popup umieszczone w stopce strony, zawiera:
 
   - skrócone informacje o zawartości strony (dodatkowy link do formularza szczepień),
+  - link do repozytorium GitHub'a.
   - informacje o autorze,
   - datę wykonania.
+
   - okno można wyłączyć na 3 sposoby:
 
     - przycisk Zamknij,
@@ -55,9 +57,9 @@
 
 - animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
 
-- zmieniony wygląd scrollbar'a,
+- zmieniony wygląd scrollbar'a.
 
-- link do strony głównej umieszczony w napisie "SzczepionkiCovid"
+- link do strony głównej umieszczony w napisie "SzczepionkiCovid".
 
 - linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
 
