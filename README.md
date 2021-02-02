@@ -29,7 +29,7 @@
 
 ### Dodatkowe:
 
-##### Budowa:
+#### Budowa:
 
 - strona zbudowana została responsywnie dzięki czemu umożliwia swobodne i wygodne korzystanie z niej na każdym urządzeniu:
 
@@ -53,7 +53,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-##### Wygląd:
+#### Wygląd:
 
 - animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript,
 
@@ -67,7 +67,7 @@
 
 - symulowane wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
 
-##### Dodatki:
+#### Dodatki:
 
 - informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie,
 
