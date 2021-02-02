@@ -65,7 +65,7 @@
 
 - link do strony głównej umieszczony w napisie "SzczepionkiCovid",
 
-- symulowane wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
+- symulowane wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona.
 
 #### Dodatki:
 
