@@ -23,6 +23,9 @@ window.onload = () => {
   //===// Loading variables //===//
   //=============================//
 
+  // Defining const for motion status check
+  const motionCheck = window.matchMedia('(prefers-reduced-motion: reduce)');
+
   // Defining variables array
   const durationsArray = [];
   const varArray = [
@@ -65,27 +68,50 @@ window.onload = () => {
     if (durationsArray[i].indexOf('.') < '') durationsArray[i] = durationsArray[i] + '.0';
   }
 
+  //===================================//
+  //===// Reduced motion - Status //===//
+  //===================================//
+
+  motionCheck.addEventListener('change', consoleInit);
+
+  function consoleInit() {
+    if (!motionCheck || motionCheck.matches) {
+      motionStatus = `OFF`;
+      console.clear();
+      consoleLog();
+    } else {
+      motionStatus = `ON`;
+      console.clear();
+      consoleLog();
+    }
+  }
+
   //====================//
   //====// Console //===//
   //====================//
 
-  // Console log transitions durations & delays
+  // Console log animation status & transitions durations & delays
 
-  console.log(`# Transitions, Animations was loaded correctly! (Time is given in seconds)\n\n`);
-  console.log(`# Page transition:`);
-  console.log(`  - static screen: ` + durationsArray[0]);
-  console.log(`  - transition: ` + durationsArray[0]);
-  console.log(`# Button animation time: ` + durationsArray[1]);
-  console.log(`# Popup time: ` + durationsArray[2]);
-  console.log(`# Logo animation time: ` + durationsArray[3]);
-  console.log(`# Navigation:`);
-  console.log(`  - hide: ` + durationsArray[4]);
-  console.log(`  - show: ` + durationsArray[5]);
-  console.log(`# Main animation: ` + durationsArray[6]);
-  console.log(`# Form result visibility: ` + durationsArray[7]);
-  console.log(`# Delays:`);
-  console.log(`  - default: ` + durationsArray[8]);
-  console.log(`  - logo icon: ` + durationsArray[9]);
+  consoleInit();
+
+  function consoleLog() {
+    console.log(`# Scripts were loaded correctly! (Time is given in seconds)`);
+    console.log(`# Animations are ` + motionStatus + `\n\n`);
+    console.log(`# Page transition:`);
+    console.log(`  - static screen: ` + durationsArray[0]);
+    console.log(`  - transition: ` + durationsArray[0]);
+    console.log(`# Button animation time: ` + durationsArray[1]);
+    console.log(`# Popup time: ` + durationsArray[2]);
+    console.log(`# Logo animation time: ` + durationsArray[3]);
+    console.log(`# Navigation:`);
+    console.log(`  - hide: ` + durationsArray[4]);
+    console.log(`  - show: ` + durationsArray[5]);
+    console.log(`# Main animation: ` + durationsArray[6]);
+    console.log(`# Form result visibility: ` + durationsArray[7]);
+    console.log(`# Delays:`);
+    console.log(`  - default: ` + durationsArray[8]);
+    console.log(`  - logo icon: ` + durationsArray[9]);
+  }
 
   //====================//
   //===// Scripts //===//
