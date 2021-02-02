@@ -38,6 +38,8 @@
 
 - użyto znaczników semantycznych.
 
+- informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie.
+
 - animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript.
 
 - okno popup umieszczone w stopce strony, zawiera:

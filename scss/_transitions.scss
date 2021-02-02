@@ -198,27 +198,8 @@
   background: color(accent);
   transition: time(transition-time) ease-out;
 
-  &.is-active {
+  &.transition--active {
     top: 0;
-    left: 0;
-  }
-}
-
-//============================================//
-//===// Page transition (Right to  Left) //===//
-//============================================//
-
-.slide-r-l {
-  position: fixed;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  bottom: 0;
-  z-index: 101;
-  background: color(accent);
-  transition: time(transition-time) ease-out;
-
-  &.is-active {
     left: 0;
   }
 }
