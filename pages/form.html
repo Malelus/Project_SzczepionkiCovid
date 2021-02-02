@@ -20,7 +20,7 @@
     <header>
       <div class="container container--top">
         <div class="logo">
-          <span class="logo__wrapper"
+          <span class="logo__wrapper" title="Szczepionki Covid"
             ><a href="../index.html" class="logo__link logo__link--big">Szczepionki</a
             ><a href="../index.html" class="logo__link logo__link--small">COVID</a
             ><a href="../index.html" class="fas fa-syringe logo__link logo__link--icon"></a
@@ -37,16 +37,20 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item nav__item--type">
-            <a href="./first.html" class="nav__link">Moderna</a>
+            <a href="./first.html" class="nav__link" title="Moderna">Moderna</a>
           </li>
           <li class="nav__item nav__item--type">
-            <a href="./second.html" class="nav__link">AstraZeneca</a>
+            <a href="./second.html" class="nav__link" title="AstraZeneca">AstraZeneca</a>
           </li>
           <li class="nav__item nav__item--type">
-            <a href="./third.html" class="nav__link">CureVac</a>
+            <a href="./third.html" class="nav__link" title="CureVac">CureVac</a>
           </li>
           <li class="nav__item nav__item--form">
-            <a href="./form.html" class="nav__link nav__link--active external" target="_blank"
+            <a
+              href="./form.html"
+              class="nav__link nav__link--active external"
+              target="_blank"
+              title="Zapisz Się!"
               >Zapisz Się!</a
             >
           </li>
@@ -65,8 +69,18 @@
             <input type="text" id="last-name" class="form__input" required />
             <label for="phone-num" class="form__label">Numer telefonu</label>
             <input type="tel" id="phone-num" class="form__input" required />
-            <input type="submit" value="Wyślij" class="btn btn--form btn--form__send" />
-            <input type="reset" value="Wyczyść" class="btn btn--form btn--form__reset" />
+            <input
+              type="submit"
+              value="Wyślij"
+              class="btn btn--form btn--form__send"
+              title="Wyślij formularz!"
+            />
+            <input
+              type="reset"
+              value="Wyczyść"
+              class="btn btn--form btn--form__reset"
+              title="Wyczyść wprowadzone dane!"
+            />
           </form>
 
           <p class="content__text form__result">
@@ -100,6 +114,7 @@
             href="./form.html"
             class="popup__link external"
             target="_blank"
+            title="Zapisz Się!"
             ><i class="fas fa-external-link-alt"></i
           ></a>
         </p>
@@ -108,6 +123,7 @@
             href="https://github.com/Malelus/SzczepionkiCovid"
             class="popup__link external"
             target="_blank"
+            title="github.com/Malelus/SzczepionkiCovid"
             ><i class="fas fa-external-link-alt"></i
           ></a>
         </p>
