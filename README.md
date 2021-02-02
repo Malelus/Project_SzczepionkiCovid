@@ -29,6 +29,8 @@
 
 ### Dodatkowe:
 
+##### Budowa:
+
 - strona zbudowana została responsywnie dzięki czemu umożliwia swobodne i wygodne korzystanie z niej na każdym urządzeniu:
 
 | Mobile                                                     | Tablet                                                                                        | Desktop                                                             |
@@ -37,8 +39,6 @@
 | widok mobilny, hamburger menu (pierwotne ułożenie strony), | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu, | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu, |
 
 - użyto znaczników semantycznych,
-
-- informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie,
 
 - okno popup umieszczone w stopce strony, zawiera:
 
@@ -53,9 +53,7 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- możliwość wyłączenia całkowicie animacji znajdujących się na stronie.
-
-  > (aby wyłączyć animacje: Ustawienia > Ułatwienia dostępu > Wyświetlacz > Pokaż animacje w systemie Windows (Wyłącz)) (Ustawienie znajduje się w pliku \_reset.scss).
+##### Wygląd:
 
 - animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript,
 
@@ -68,6 +66,14 @@
 - link do strony głównej umieszczony w napisie "SzczepionkiCovid",
 
 - symulowane wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
+
+##### Dodatki:
+
+- informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie,
+
+- możliwość wyłączenia całkowicie animacji znajdujących się na stronie.
+
+  > (aby wyłączyć animacje: Ustawienia > Ułatwienia dostępu > Wyświetlacz > Pokaż animacje w systemie Windows (Wyłącz)) (Ustawienie znajduje się w pliku \_reset.scss).
 
 ---
 
