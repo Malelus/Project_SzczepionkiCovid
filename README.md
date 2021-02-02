@@ -40,7 +40,7 @@
 
 - informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie,
 
-- animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript.
+- animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript,
 
 - okno popup umieszczone w stopce strony, zawiera:
 
@@ -55,15 +55,15 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- symulowne wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona.
+- symulowne wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie).
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie),
 
-- zmieniony wygląd scrollbar'a.
+- zmieniony wygląd scrollbar'a,
 
-- link do strony głównej umieszczony w napisie "SzczepionkiCovid".
+- link do strony głównej umieszczony w napisie "SzczepionkiCovid",
 
-- linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik.
+- linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik,
 
 - możliwość wyłączenia całkowicie animacji tekstu.
   > (aby włączyć opcje: ustawienia > ułatwienia dostępu > wyświetlacz > Pokaż animacje w systemie Windows (wyłącz)) (ustawienie znajduje się w pliku \_reset.scss).
