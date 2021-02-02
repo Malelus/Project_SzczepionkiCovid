@@ -29,18 +29,21 @@
 
 ### Dodatkowe:
 
-- strona zbudowana została responsywnie dzięki czemu umożliwa swobodne i wygodne korzystanie z niej na każdym urządzeniu:
+- animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript,
 
-| Mobile                                                     | Tablet                                                                                        | Desktop                                                             |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| <699px                                                     | 700px - 999px                                                                                 | >1000px                                                             |
-| widok mobilny, hamburger menu (pierwotne ułożenie strony), | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu, | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu, |
+- linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik,
+
+- zmieniony wygląd scrollbar'a,
+
+- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie),
+
+- link do strony głównej umieszczony w napisie "SzczepionkiCovid",
+
+- symulowane wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
 
 - użyto znaczników semantycznych,
 
 - informacje w konsoli o czasach trwania wszystkich animacji znajdujących się na stronie,
-
-- animacja przejścia między podstronami wykonana przy pomocy CSS oraz JavaScript,
 
 - okno popup umieszczone w stopce strony, zawiera:
 
@@ -55,18 +58,15 @@
     - kliknięcie poza obszar okna,
     - za pomocą przycisku ESC.
 
-- symulowne wysłanie formularza na serwer komunikowany poprzez komunikat, następnie strona zostaje odświeżona,
+- strona zbudowana została responsywnie dzięki czemu umożliwia swobodne i wygodne korzystanie z niej na każdym urządzeniu:
 
-- animacja na głównej stronie, po najechaniu na nazwę akcji szczepień pojawia się link przenoszący na stronę [gov](https://www.gov.pl/web/szczepimysie),
-
-- zmieniony wygląd scrollbar'a,
-
-- link do strony głównej umieszczony w napisie "SzczepionkiCovid",
-
-- linki aktywne oraz znacznik na której stronie aktualnie znajduję się użytkownik,
+| Mobile                                                     | Tablet                                                                                        | Desktop                                                             |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| <699px                                                     | 700px - 999px                                                                                 | >1000px                                                             |
+| widok mobilny, hamburger menu (pierwotne ułożenie strony), | widok tabletu, pasek nawigacji na górze, dostosowanie czcionek i animacji do rozmiaru ekranu, | widok desktop, dostosowanie czcionek i animacji do rozmiaru ekranu, |
 
 - możliwość wyłączenia całkowicie animacji znajdujących się na stronie.
-  > (aby włączyć opcje: Ustawienia > Ułatwienia dostępu > Wyświetlacz > Pokaż animacje w systemie Windows (Wyłącz)) (Ustawienie znajduje się w pliku \_reset.scss).
+  > (aby wyłączyć animacje: Ustawienia > Ułatwienia dostępu > Wyświetlacz > Pokaż animacje w systemie Windows (Wyłącz)) (Ustawienie znajduje się w pliku \_reset.scss).
 
 ---
 
