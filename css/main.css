@@ -72,6 +72,11 @@ html {
   font-size: 1.35rem;
 }
 
+.btn--icon {
+  pointer-events: none;
+  font-family: 'Font Awesome 5 Free';
+}
+
 .btn--about {
   font-weight: 100;
   border-radius: 50px;
@@ -281,8 +286,8 @@ html {
 
 .popup__link {
   color: #173840;
-  font-size: 1rem;
   text-decoration: none;
+  font-size: 1rem;
   margin-left: 0.25em;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
@@ -979,8 +984,8 @@ main {
 }
 
 .content__link {
-  text-decoration: none;
   color: #ffffff;
+  text-decoration: none;
   font-size: 1rem;
   padding: 0.25em;
   -webkit-transition: all 0.2s ease;

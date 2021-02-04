@@ -68,7 +68,6 @@ header {
 
   &__link {
     display: inline-block;
-
     color: white;
     text-decoration: none;
     font-family: font(txt);
@@ -304,8 +303,8 @@ main {
   }
 
   &__link {
-    text-decoration: none;
     color: color(txt);
+    text-decoration: none;
     font-size: 1rem;
     padding: 0.25em;
     transition: all time(btn-anim-time) ease;
@@ -386,7 +385,7 @@ footer {
 }
 
 //==========================================================//
-//===// Importing responisve layout (mobile & desktop) //===//
+//===// Importing responisve design (mobile & desktop) //===//
 //==========================================================//
 
 @import './mobile', './desktop';

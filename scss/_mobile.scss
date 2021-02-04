@@ -1,5 +1,5 @@
 //==============================================//
-//===// Responsive layout - mobile section //===//
+//===// Responsive design - mobile section //===//
 //==============================================//
 
 @include mobile {
@@ -53,6 +53,8 @@
     }
 
     &__item {
+      display: inline-block;
+
       &--type {
         & + & {
           margin: 0 0 0 0.5em;
@@ -62,8 +64,6 @@
       &--form {
         margin: 0 0 0 1.25em;
       }
-
-      display: inline-block;
     }
 
     &__link {
