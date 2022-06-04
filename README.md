@@ -1,6 +1,6 @@
 # Strona o szczepionkach na COVID-19
 
-> ### [Link do strony](https://malelus.github.io/SzczepionkiCovid/)
+> ### [Link do strony](https://malelus.github.io/Project_SzczepionkiCovid/)
 
 ---
 
